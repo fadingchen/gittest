@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>border的图片研究</title>
+    <style>
+        body{ background:#000000;}
+        .borderdiv{ border-width: 25px 30px 10px 20px;width:200px;height: 200px;
+            margin: 20px auto;color:#ffffff ;
+            -moz-border-image: url("borimg.png ") 25 30 10 20 repeat stretch;
+            -webkit-border-image: url("borimg.png") 25 30 10 20 repeat stretch;
+            border-image: url("borimg.png") 25 30 10 20 repeat stretch; }
+
+
+    </style>
+</head>
+<body>
+
+<div class="borderdiv">
+广告
+
+</div>
+
+</body>
+</html>

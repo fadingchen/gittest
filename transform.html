@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transform 各属性说明 </title>
+</head>
+<style>
+    .ro{-moz-transform:rotate(45deg); margin:100px;width: 100px; height: 100px; background:#ff6600}
+    .sk{-moz-transform:skew(30deg,130deg);
+        /* 前面是水平方向的角度，后面的垂直方向的斜切角度*/
+        margin:100px;width: 100px; height: 100px; background:#ff6600}
+    .sc{-moz-transform:scale(0.5,0.5);
+        /* 垂直方向和水平方向 缩放的比例*/
+        margin:100px;width: 100px; height: 100px; background:#ff6600}
+
+    .mo{-moz-transform:translate(100px,100px);
+        /* 垂直方向和水平方向 缩放的比例*/
+        margin:100px;width: 100px; height: 100px; background:#ff6600}
+
+    .xz{-moz-transform:rotate(45deg) scale(1.5) translate(50px,0px);
+        /* 对一个dvi进行多次变换  旋转45度 方大1.5倍 向右移动50px*/
+        margin:100px;width: 100px; height: 100px; background:#ff6600}
+
+
+</style>
+<body>
+
+
+
+<div class="ro"></div>
+<div class="sc"></div>
+<div class="sk"></div>
+<div class="mo"></div>
+<div class="xz"></div>
+
+
+</body>
+</html>

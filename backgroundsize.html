@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>css3 背景新功能 </title>
+<style>
+
+.demo {
+    background: url("img/fb.jpg") no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    line-height: 100px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+    /*background-size: cover;*/
+    background-size:contain;
+
+
+
+    border-radius: 10px 20px 30px 40px;
+    border: 3px solid #05b1ff ;
+
+}
+
+
+/* 自适应背景图片
+body {
+    background: #000 url("img/fb.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*1024px X 768px
+@media only all and (max-width: 1024px) and (max-height: 768px) {
+    body {
+        -moz-background-size: 1024px 768px;
+        -webkit-background-size: 1024px 768px;
+        -o-background-size: 1024px 768px;
+        background-size: 1024px 768px;
+    }
+}
+/*640px X 480px
+@media only all and (max-width: 640px) and (max-height: 480px) {
+    body {
+        -moz-background-size: 640px 480px;
+        -webkit-background-size: 640px 480px;
+        -o-background-size: 640px 480px;
+        background-size: 640px 480px;
+    }
+}
+
+*/
+
+.multiplebg{
+    width: 900px; height: 900px; margin: 100px auto;
+    background: url("img/o.jpg") no-repeat left top,url("img/people.jpg") no-repeat right top;
+    border: 1px solid #fd1b1b ;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!--<div class="demo"> </div>-->
+<div class="multiplebg">
+
+
+
+</div>
+</body>
+</html>

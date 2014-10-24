@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> 多列 </title>
+    <style>
+        .columnBreak {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+            -moz-column-gap: 30px;
+            -webkit-column-gap: 30px;
+            column-gap: 30px;
+        }
+        .columnBreak h2 {
+            background: orange;
+            border-bottom: 3px double green;
+            margin: 5px 0;
+            -webkit-column-span: all;
+            column-span: all;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="columnBreak">
+    <h2> test h3</h2>
+    效果图明显的告诉了大家，标题达到了我们需要的效果（Safari,Chrome,Opera）——整个标题跨了三列，除了这一点他还告诉我们一个信息。标题h2前面的段落p按列的布局进行了三列布局，然后运行到标题h2给断列了，而h2标题后面的段落P同样按照列的布局属性进行了分列布局。这样一来，如果大家需要在实际应用中将某个元素跨列，别的元素继续分列布局，那么就可以考虑使用今天介绍的column-span。
+</div>
+
+
+
+</body>
+</html>

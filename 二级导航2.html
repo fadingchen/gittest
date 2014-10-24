@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+    <title>纯CSS菜单</title>
+    <style type="text/css">
+        * {font-family:"宋体";margin:0;padding:0;}
+        body {padding:15px;}
+        .nav li li a {display:inline-block;}
+        .nav li li a {display:block;}
+        .nav ul {list-style-type:none;margin:0;padding:0;}
+        .nav ul li { float:left;line-height:24px;display:block;border-bottom:dashed #ccc 1px;font-size:0;padding:0;margin:0;width:120px;}
+        .nav ul li a {display:block;width:120px;height:24px;font-size:12px;text-align:center;color:#555;text-decoration:none;background:#f7f7f7;}
+        .nav ul table {width:100%;border-collapse:collapse;border:0;padding:0;margin:0;}
+        .nav ul li ul {display:none;}
+        .nav ul li:hover,.nav ul li a:hover,.nav ul li a:active {color:red;background-color:#f1f1f1;}
+        .nav ul li:hover ul,.nav ul li a:hover ul,.nav ul li a:active ul {display:block;width:100%;}
+        .nav ul ul li {display:block;width:100%;border:none;}
+        .nav ul ul li a{display:block;color:blue;border:none;}
+    </style>
+</head>
+
+<body>
+<div class="nav">
+    <ul>
+        <li><a href="#">首页
+            <!--[if IE 7]><!--></a><!--<![endif]--><table cellpadding="0" cellspacing="0"><tr><td>
+            <ul>
+                <li><a href="#">最新更新</a></li>
+                <li><a href="#">下载排行</a></li>
+            </ul>
+        </td></tr></table><!--[if lte IE 6]></a><![endif]-->
+        </li>
+        <li><a href="#">ASP
+            <!--[if IE 7]><!--></a><!--<![endif]--><table cellpadding="0" cellspacing="0"><tr><td>
+            <ul>
+                <li><a href="#">企业整站</a></li>
+                <li><a href="#">图片相册</a></li>
+                <li><a href="#">社区程序</a></li>
+            </ul>
+        </td></tr></table><!--[if lte IE 6]></a><![endif]-->
+        </li>
+        <li><a href="#">PHP
+            <!--[if IE 7]><!--></a><!--<![endif]--><table cellpadding="0" cellspacing="0"><tr><td>
+            <ul>
+                <li><a href="#">博客微博</a></li>
+                <li><a href="#">论坛社区</a></li>
+            </ul>
+        </td></tr></table><!--[if lte IE 6]></a><![endif]-->
+        </li>
+        <li><a href="#">JSP
+            <!--[if IE 7]><!--></a><!--<![endif]--><table cellpadding="0" cellspacing="0"><tr><td>
+            <ul>
+                <li><a href="#">企业</a></li>
+                <li><a href="#">新闻系统</a></li>
+                <li><a href="#">留言</a></li>
+            </ul>
+        </td></tr></table><!--[if lte IE 6]></a><![endif]-->
+        </li>
+        <li><a href="#">VC++
+            <!--[if IE 7]><!--></a><!--<![endif]--><table cellpadding="0" cellspacing="0"><tr><td>
+            <ul>
+                <li><a href="#">数据库</a></li>
+                <li><a href="#">界面</a></li>
+                <li><a href="#">加密</a></li>
+            </ul>
+        </td></tr></table><!--[if lte IE 6]></a><![endif]-->
+        </li>
+        <li><a href="#">DELPHI
+            <!--[if IE 7]><!--></a><!--<![endif]--><table cellpadding="0" cellspacing="0"><tr><td>
+            <ul>
+                <li><a href="#">系统相关</a></li>
+                <li><a href="#">算法</a></li>
+                <li><a href="#">数据库</a></li>
+            </ul>
+        </td></tr></table><!--[if lte IE 6]></a><![endif]-->
+        </li>
+    </ul>
+</div>
+</body>
+</html>
